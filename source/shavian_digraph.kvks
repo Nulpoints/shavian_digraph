@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visualkeyboard>
+  <header>
+    <version>10.0</version>
+    <kbdname>shavian_digraph</kbdname>
+    <flags>
+      <displayunderlying/>
+    </flags>
+  </header>
+  <encoding name="unicode" fontname="Consolas" fontsize="12">
+    <layer shift="">
+      <key vkey="K_A">𐑨</key>
+      <key vkey="K_B">𐑚</key>
+      <key vkey="K_D">𐑛</key>
+      <key vkey="K_E">𐑧</key>
+      <key vkey="K_F">𐑓</key>
+      <key vkey="K_G">𐑜</key>
+      <key vkey="K_H">𐑣</key>
+      <key vkey="K_I">𐑦</key>
+      <key vkey="K_J">𐑡</key>
+      <key vkey="K_K">𐑒</key>
+      <key vkey="K_L">𐑤</key>
+      <key vkey="K_M">𐑥</key>
+      <key vkey="K_N">𐑯</key>
+      <key vkey="K_O">𐑪</key>
+      <key vkey="K_P">𐑐</key>
+      <key vkey="K_Q">·</key>
+      <key vkey="K_R">𐑮</key>
+      <key vkey="K_S">𐑕</key>
+      <key vkey="K_T">𐑑</key>
+      <key vkey="K_U">𐑩</key>
+      <key vkey="K_V">𐑝</key>
+      <key vkey="K_W">𐑢</key>
+      <key vkey="K_Y">𐑘</key>
+      <key vkey="K_Z">𐑟</key>
+    </layer>
+  </encoding>
+</visualkeyboard>

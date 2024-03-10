@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\shavian_digraph.kpj</path>
+    <file ID="id_MRU0" Expanded="1"/>
+    <file ID="id_MRU1" Expanded="1"/>
+    <file ID="id_MRU2" Expanded="1"/>
+    <file ID="id_0cd8595d2ac65cebb2e8c5f4f3690acd" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_0cd8595d2ac65cebb2e8c5f4f3690acd</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>0</DebugDefaultFont>
+        <DebugFont>Fairfax Hax HD|20|B  |0</DebugFont>
+        <CodeFont>Consolas|9|   |0</CodeFont>
+        <CharFont>Consolas|11|   |0</CharFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_a6e3e69f413d8c7c232ed563013b2374</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c743b4d4450e92ad6047868e764c93ce</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\shavian_digraph.keyboard_info</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_a011d92b2dad7eac5ab093ef25d5b208</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\toki_pona.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>0</DebugDefaultFont>
+        <DebugFont>Fairfax Hax HD|20|B  |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_13c279e9747fa549a534c2bfc35a660d</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_2c215aacf7673b035a9ab2085bb70a9f</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\..\build\shavian_digraph.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0dfd06b8cfa4ee084466ca406f5eba44</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\..\build\shavian_digraph.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_b6b4aea0a17cad3220d6e4f107bdc4cb</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\..\build\shavian_digraph.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\readme.htm</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>shavian_digraph.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>toki_pona.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\toki_pona.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>Sitelen Pona.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\nuno2\Downloads\sitelenpona\Sitelen Pona\Keyman\Sitelen Pona.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>shaw_2layer.kmp</Filename>
+      <FileType>.kmp</FileType>
+      <FullPath>C:\Users\nuno2\Downloads\shaw_2layer.kmp</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>shavian_digraph.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kps</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

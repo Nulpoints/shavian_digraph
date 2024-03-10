@@ -1,0 +1,127 @@
+﻿c shavian_digraph generated from template at 2024-01-25 15:24:53
+c with name "Shavian Digraph"
+store(&VERSION) '10.0'
+store(&NAME) 'Shavian Digraph'
+store(&COPYRIGHT) '©'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'shavian_digraph.ico'
+store(&VISUALKEYBOARD) 'shavian_digraph.kvks'
+store(&LAYOUTFILE) 'shavian_digraph.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c 'plain' consonants
+c /p/ peep [p]
++ 'p' > '𐑐'
+c /b/ bib [b]
++ 'b' > '𐑚'
+c /t/ tot [t]
++ 't' > '𐑑'
+c /d/ dead [d]
++ 'd' > '𐑛'
+c /k/ kick [k]
++ 'k' > '𐑒'
+c /g/ gag [g]
++ 'g' > '𐑜'
+c /f/ fee [f]
++ 'f' > '𐑓'
+c /v/ vow [v]
++ 'v' > '𐑝'
+c /s/ so [s]
++ 's' > '𐑕'
+c /z/ zoo [z]
++ 'z' > '𐑟'
+c /j/ yea [y]
++ 'y' > '𐑘'
+c /w/ woe [w]
++ 'w' > '𐑢'
+c /r/ roar [r]
++ 'r' > '𐑮'
+c /l/ loll [l]
++ 'l' > '𐑤'
+c /m/ mime [m]
++ 'm' > '𐑥'
+c /n/ nun [n]
++ 'n' > '𐑯'
+c /dʒ/ judge [j]
++ 'j' > '𐑡'
+c /h/ ha-ha [h]
++ 'h' > '𐑣'
+
+c Consonants Digraphs
+c /ʃ/ sure [sh]
+'𐑕' + 'h' > '𐑖'
+c /ʒ/ measure [zh]
+'𐑟' + 'h' > '𐑠'
+c /θ/ thigh [th]
+'𐑑' + 'h' > '𐑔'
+c /ð/ they [dh]
+'𐑛' + 'h' > '𐑞'
+c /tʃ/ church [ch]
+'c' + 'h' > '𐑗'
+c /ŋ/ hung [ng]
+'𐑯' + 'g' > '𐑙'
+
+c Vowels
+c /æ/ ash [a]
++ 'a' > '𐑨'
+c /ɪ/ if [i]
++ 'i' > '𐑦'
+c /ə/ ado [u]
++ 'u' > '𐑩'
+c /ɛ/ egg [e]
++ 'e' > '𐑧'
+c /ɒ/ on [o]
++ 'o' > '𐑪'
+			
+c Vowel Digraphs
+c /iː/ eat [ee]
+'𐑧' + 'e' > '𐑰'
+c /eɪ/ age [ei]
+'𐑧' + 'i' > '𐑱'
+c /aɪ/ ash [ai]
+'𐑨' + 'i' > '𐑲'
+c /ɑː/ ah [ah]
+'𐑨' + 'h' > '𐑭'
+c /ɔː/ awe [aw]
+'𐑨' + 'w' > '𐑷'
+c /ʌ/ up [uh]
+'𐑩' + 'h' > '𐑳'
+c /ʊ/ wool [uu]
+'𐑩' + 'u' > '𐑫'
+c /oʊ/ oak [oh]
+'𐑪' + 'h' > '𐑴'
+c /uː/ ooze [oo]
+'𐑪' + 'o' > '𐑵'
+c /aʊ/ out [ou]
+'𐑪' + 'u' > '𐑬'
+c /ɔɪ/ oil [oi]
+'𐑪' + 'i' > '𐑶'
+
+c 							
+c The Rs
+c /ɑːr/ are [ar]
+'𐑨' + 'r' > '𐑸'
+c /ɔːr/ or [or]
+'𐑪' + 'r' > '𐑹'
+c /ɛər/ air [eir]
+'𐑲' + 'r' > '𐑺'
+c /ɜːr/ err [er]
+'𐑧' + 'r' > '𐑻'
+c /ər/ array [ur]
+'𐑩' + 'r' > '𐑼'
+c /ɪər/ ear [ir]
+'𐑦' + 'r' > '𐑽'
+
+c Ligatures
+c /iə/ ian [ia]
+'𐑦' + 'a' > '𐑾'
+c /juː/ yew [yw]
+'𐑘' + 'w' > '𐑿'
+
+c Punctuation
+c Namer Dot [q]
++ 'q' > '·'
