@@ -12,7 +12,7 @@ The only differences from the Yudit layout are:
 * typing 'ear' and 'ir' will both produce '𐑽'
 * typing 'x' will produce '𐑒𐑕'
 
-Layout is as follows:  
+Layout is as follows (typing combo shown in [brackets]):  
 Consonants  
 '𐑐' = /p/ peep [p]  
 '𐑚' = /b/ bib [b]  
