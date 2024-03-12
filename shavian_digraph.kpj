@@ -59,14 +59,6 @@
       <FileType>.keyboard_info</FileType>
     </File>
     <File>
-      <ID>id_a011d92b2dad7eac5ab093ef25d5b208</ID>
-      <Filename>toki_pona.kmn</Filename>
-      <Filepath>toki_pona.kmn</Filepath>
-      <FileVersion>1.0</FileVersion>
-      <FileType>.kmn</FileType>
-      <Details/>
-    </File>
-    <File>
       <ID>id_13c279e9747fa549a534c2bfc35a660d</ID>
       <Filename>shavian_digraph.ico</Filename>
       <Filepath>source\shavian_digraph.ico</Filepath>

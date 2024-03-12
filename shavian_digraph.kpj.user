@@ -47,18 +47,6 @@
       <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\shavian_digraph.keyboard_info</FullPath>
     </FileState>
     <FileState>
-      <ID>id_a011d92b2dad7eac5ab093ef25d5b208</ID>
-      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\toki_pona.kmn</FullPath>
-      <IDEState>
-        <LayoutDisplay102Key>0</LayoutDisplay102Key>
-        <DebugDefaultFont>0</DebugDefaultFont>
-        <DebugFont>Fairfax Hax HD|20|B  |0</DebugFont>
-        <CodeFont>Consolas|-9|   |0</CodeFont>
-        <CharFont>Consolas|-9|   |0</CharFont>
-      </IDEState>
-      <Debug>False</Debug>
-    </FileState>
-    <FileState>
       <ID>id_13c279e9747fa549a534c2bfc35a660d</ID>
       <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.ico</FullPath>
     </FileState>
@@ -92,27 +80,27 @@
     </File>
     <File>
       <ID>id_MRU1</ID>
-      <Filename>toki_pona.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\toki_pona.kmn</FullPath>
+      <Filename>shavian_digraph.kvks</Filename>
+      <FileType>.kvks</FileType>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kvks</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
+      <Filename>shavian_digraph.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
       <Filename>Sitelen Pona.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>C:\Users\nuno2\Downloads\sitelenpona\Sitelen Pona\Keyman\Sitelen Pona.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU3</ID>
+      <ID>id_MRU4</ID>
       <Filename>shaw_2layer.kmp</Filename>
       <FileType>.kmp</FileType>
       <FullPath>C:\Users\nuno2\Downloads\shaw_2layer.kmp</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU4</ID>
-      <Filename>shavian_digraph.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kps</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>

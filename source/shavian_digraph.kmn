@@ -4,7 +4,7 @@ store(&VERSION) '10.0'
 store(&NAME) 'Shavian Digraph'
 store(&COPYRIGHT) '©'
 store(&KEYBOARDVERSION) '1.0'
-store(&TARGETS) 'any'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
 store(&BITMAP) 'shavian_digraph.ico'
 store(&VISUALKEYBOARD) 'shavian_digraph.kvks'
 store(&LAYOUTFILE) 'shavian_digraph.keyman-touch-layout'
@@ -13,7 +13,7 @@ begin Unicode > use(main)
 
 group(main) using keys
 
-c 'plain' consonants
+c Consonants
 c /p/ peep [p]
 + 'p' > '𐑐'
 c /b/ bib [b]
@@ -51,7 +51,7 @@ c /dʒ/ judge [j]
 c /h/ ha-ha [h]
 + 'h' > '𐑣'
 
-c Consonants Digraphs
+c Consonant Digraphs
 c /ʃ/ sure [sh]
 '𐑕' + 'h' > '𐑖'
 c /ʒ/ measure [zh]
@@ -66,7 +66,7 @@ c /ŋ/ hung [ng]
 '𐑯' + 'g' > '𐑙'
 
 c Vowels
-c /ə/ ado [u]
+c /ə/ ado [a]
 + 'a' > '𐑩'
 c /ɪ/ if [i]
 + 'i' > '𐑦'
@@ -82,15 +82,14 @@ c /æ/ ash [ae]
 '𐑩'+'e' > '𐑨'
 c /iː/ eat [ee]
 '𐑧' + 'e' > '𐑰'
-c /eɪ/ age [ei]
+c /eɪ/ age [ey]
 '𐑧' + 'y' > '𐑱'
-c /aɪ/ ash [ai]
+c /aɪ/ ash [ay]
 '𐑩' + 'y' > '𐑲'
 c /ɑː/ ah [ah]
 '𐑩' + 'h' > '𐑭'
 c /ɔː/ awe [aw]
 '𐑩' + 'w' > '𐑷'
-
 c /ʊ/ wool [ou]
 '𐑪' + 'u' > '𐑫'
 c /oʊ/ oak [oa]
@@ -101,8 +100,7 @@ c /aʊ/ out [ow]
 '𐑪' + 'w' > '𐑬'
 c /ɔɪ/ oil [oi]
 '𐑪' + 'i' > '𐑶'
-
-c 							
+						
 c The Rs
 c /ɑːr/ are [ar]
 '𐑩' + 'r' > '𐑸'
@@ -127,6 +125,8 @@ c // kh [kh]
 '𐑒' + 'h' > '𐑣𐑒'
 c // x [x]
 + 'x' > '𐑒𐑕'
+
 c Punctuation
 c Namer Dot [q]
 + 'c' > '·'
++ 'q' > dk(q)
