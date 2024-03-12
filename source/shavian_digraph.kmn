@@ -2,7 +2,7 @@
 c with name "Shavian Digraph"
 store(&VERSION) '10.0'
 store(&NAME) 'Shavian Digraph'
-store(&COPYRIGHT) '©'
+store(&COPYRIGHT) '©2024'
 store(&KEYBOARDVERSION) '1.0'
 store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
 store(&BITMAP) 'shavian_digraph.ico'
