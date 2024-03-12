@@ -15,7 +15,7 @@ function Keyboard_shavian_digraph()
   this.KMINVER="10.0";
   this.KV={F:' 1em "Consolas"',K102:0};
   this.KV.KLS={
-    "default": ["","","","","","","","","","","","","","","","","·","𐑢","𐑧","𐑮","𐑑","𐑘","𐑩","𐑦","𐑪","𐑐","","","","","","","𐑨","𐑕","𐑛","𐑓","𐑜","𐑣","𐑡","𐑒","𐑤","","","","","","","","","𐑟","","","𐑝","𐑚","𐑯","𐑥","","","","","","","","",""]
+    "default": ["","","","","","","","","","","","","","","","","","𐑢","𐑧","𐑮","𐑑","𐑘","𐑳","𐑦","𐑪","𐑐","","","","","","","𐑩","𐑕","𐑛","𐑓","𐑜","𐑣","𐑡","𐑒","𐑤","","","","","","","","","𐑟","𐑒𐑕","·","𐑝","𐑚","𐑯","𐑥","","","","","","","","",""]
   };
   this.KV.BK=(function(x){
     var
@@ -95,8 +95,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "id": "K_Q",
-                "pad": "75",
-                "text": "\u00B7"
+                "pad": "75"
               },
               {
                 "id": "K_W",
@@ -120,7 +119,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_U",
-                "text": "\uD801\uDC69"
+                "text": "\uD801\uDC73"
               },
               {
                 "id": "K_I",
@@ -154,7 +153,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_A",
-                "text": "\uD801\uDC68"
+                "text": "\uD801\uDC69"
               },
               {
                 "id": "K_S",
@@ -216,10 +215,12 @@ function Keyboard_shavian_digraph()
                 "text": "\uD801\uDC5F"
               },
               {
-                "id": "K_X"
+                "id": "K_X",
+                "text": "\uD801\uDC52\uD801\uDC55"
               },
               {
-                "id": "K_C"
+                "id": "K_C",
+                "text": "\u00B7"
               },
               {
                 "id": "K_V",
@@ -279,7 +280,7 @@ function Keyboard_shavian_digraph()
   }
 }
 ;
-  this.KVER="16.0.144.0";
+  this.KVER="16.0.145.0";
   this.KVS=[];
   this.gs=function(t,e) {
     return this.g_main_0(t,e);
@@ -290,7 +291,12 @@ function Keyboard_shavian_digraph()
   this.g_main_0=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
     if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_A /* 0x41 */)) {
-      if(k.KFCM(1,t,['𐑦'])){
+      if(k.KFCM(1,t,['𐑪'])){
+        r=m=1;   // Line 96
+        k.KDC(1,t);
+        k.KO(-1,t,"𐑴");
+      }
+      else if(k.KFCM(1,t,['𐑦'])){
         r=m=1;   // Line 121
         k.KDC(1,t);
         k.KO(-1,t,"𐑾");
@@ -298,7 +304,7 @@ function Keyboard_shavian_digraph()
       else if(1){
         r=m=1;   // Line 70
         k.KDC(0,t);
-        k.KO(-1,t,"𐑨");
+        k.KO(-1,t,"𐑩");
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_B /* 0x42 */)) {
@@ -306,6 +312,13 @@ function Keyboard_shavian_digraph()
         r=m=1;   // Line 20
         k.KDC(0,t);
         k.KO(-1,t,"𐑚");
+      }
+    }
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_C /* 0x43 */)) {
+      if(1){
+        r=m=1;   // Line 131
+        k.KDC(0,t);
+        k.KO(-1,t,"·");
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_D /* 0x44 */)) {
@@ -316,13 +329,18 @@ function Keyboard_shavian_digraph()
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_E /* 0x45 */)) {
-      if(k.KFCM(1,t,['𐑧'])){
+      if(k.KFCM(1,t,['𐑩'])){
         r=m=1;   // Line 82
+        k.KDC(1,t);
+        k.KO(-1,t,"𐑨");
+      }
+      else if(k.KFCM(1,t,['𐑧'])){
+        r=m=1;   // Line 84
         k.KDC(1,t);
         k.KO(-1,t,"𐑰");
       }
       else if(1){
-        r=m=1;   // Line 76
+        r=m=1;   // Line 74
         k.KDC(0,t);
         k.KO(-1,t,"𐑧");
       }
@@ -367,25 +385,20 @@ function Keyboard_shavian_digraph()
         k.KDC(1,t);
         k.KO(-1,t,"𐑞");
       }
-      else if(k.KFCM(1,t,['c'])){
+      else if(k.KFCM(1,t,['·'])){
         r=m=1;   // Line 64
         k.KDC(1,t);
         k.KO(-1,t,"𐑗");
       }
-      else if(k.KFCM(1,t,['𐑨'])){
-        r=m=1;   // Line 88
+      else if(k.KFCM(1,t,['𐑩'])){
+        r=m=1;   // Line 90
         k.KDC(1,t);
         k.KO(-1,t,"𐑭");
       }
-      else if(k.KFCM(1,t,['𐑩'])){
-        r=m=1;   // Line 92
+      else if(k.KFCM(1,t,['𐑒'])){
+        r=m=1;   // Line 125
         k.KDC(1,t);
-        k.KO(-1,t,"𐑳");
-      }
-      else if(k.KFCM(1,t,['𐑪'])){
-        r=m=1;   // Line 96
-        k.KDC(1,t);
-        k.KO(-1,t,"𐑴");
+        k.KO(-1,t,"𐑣𐑒");
       }
       else if(1){
         r=m=1;   // Line 52
@@ -394,17 +407,7 @@ function Keyboard_shavian_digraph()
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_I /* 0x49 */)) {
-      if(k.KFCM(1,t,['𐑧'])){
-        r=m=1;   // Line 84
-        k.KDC(1,t);
-        k.KO(-1,t,"𐑱");
-      }
-      else if(k.KFCM(1,t,['𐑨'])){
-        r=m=1;   // Line 86
-        k.KDC(1,t);
-        k.KO(-1,t,"𐑲");
-      }
-      else if(k.KFCM(1,t,['𐑪'])){
+      if(k.KFCM(1,t,['𐑪'])){
         r=m=1;   // Line 102
         k.KDC(1,t);
         k.KO(-1,t,"𐑶");
@@ -457,7 +460,7 @@ function Keyboard_shavian_digraph()
         k.KO(-1,t,"𐑵");
       }
       else if(1){
-        r=m=1;   // Line 78
+        r=m=1;   // Line 76
         k.KDC(0,t);
         k.KO(-1,t,"𐑪");
       }
@@ -471,34 +474,39 @@ function Keyboard_shavian_digraph()
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_Q /* 0x51 */)) {
       if(1){
-        r=m=1;   // Line 127
+        r=m=1;   // Line 132
         k.KDC(0,t);
-        k.KO(-1,t,"·");
+        k.KDO(-1,t,0);
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_R /* 0x52 */)) {
-      if(k.KFCM(1,t,['𐑨'])){
-        r=m=1;   // Line 107
+      if(k.KFCM(2,t,['𐑩','𐑦'])){
+        r=m=1;   // Line 110
+        k.KDC(2,t);
+        k.KO(-1,t,"𐑺");
+      }
+      else if(k.KFCM(2,t,['𐑧','𐑩'])){
+        r=m=1;   // Line 116
+        k.KDC(2,t);
+        k.KO(-1,t,"𐑽");
+      }
+      else if(k.KFCM(1,t,['𐑩'])){
+        r=m=1;   // Line 106
         k.KDC(1,t);
         k.KO(-1,t,"𐑸");
       }
       else if(k.KFCM(1,t,['𐑪'])){
-        r=m=1;   // Line 109
+        r=m=1;   // Line 108
         k.KDC(1,t);
         k.KO(-1,t,"𐑹");
       }
-      else if(k.KFCM(1,t,['𐑲'])){
-        r=m=1;   // Line 111
-        k.KDC(1,t);
-        k.KO(-1,t,"𐑺");
-      }
-      else if(k.KFCM(1,t,['𐑧'])){
-        r=m=1;   // Line 113
+      else if(k.KFCM(1,t,['𐑳'])){
+        r=m=1;   // Line 112
         k.KDC(1,t);
         k.KO(-1,t,"𐑻");
       }
-      else if(k.KFCM(1,t,['𐑩'])){
-        r=m=1;   // Line 115
+      else if(k.KFCM(1,t,['𐑧'])){
+        r=m=1;   // Line 114
         k.KDC(1,t);
         k.KO(-1,t,"𐑼");
       }
@@ -528,20 +536,20 @@ function Keyboard_shavian_digraph()
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_U /* 0x55 */)) {
-      if(k.KFCM(1,t,['𐑩'])){
+      if(k.KFCM(2,t,['𐑘','𐑪'])){
+        r=m=1;   // Line 123
+        k.KDC(2,t);
+        k.KO(-1,t,"𐑿");
+      }
+      else if(k.KFCM(1,t,['𐑪'])){
         r=m=1;   // Line 94
         k.KDC(1,t);
         k.KO(-1,t,"𐑫");
       }
-      else if(k.KFCM(1,t,['𐑪'])){
-        r=m=1;   // Line 100
-        k.KDC(1,t);
-        k.KO(-1,t,"𐑬");
-      }
       else if(1){
-        r=m=1;   // Line 74
+        r=m=1;   // Line 78
         k.KDC(0,t);
-        k.KO(-1,t,"𐑩");
+        k.KO(-1,t,"𐑳");
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_V /* 0x56 */)) {
@@ -552,15 +560,15 @@ function Keyboard_shavian_digraph()
       }
     }
     else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_W /* 0x57 */)) {
-      if(k.KFCM(1,t,['𐑨'])){
-        r=m=1;   // Line 90
+      if(k.KFCM(1,t,['𐑩'])){
+        r=m=1;   // Line 92
         k.KDC(1,t);
         k.KO(-1,t,"𐑷");
       }
-      else if(k.KFCM(1,t,['𐑘'])){
-        r=m=1;   // Line 123
+      else if(k.KFCM(1,t,['𐑪'])){
+        r=m=1;   // Line 100
         k.KDC(1,t);
-        k.KO(-1,t,"𐑿");
+        k.KO(-1,t,"𐑬");
       }
       else if(1){
         r=m=1;   // Line 40
@@ -568,8 +576,25 @@ function Keyboard_shavian_digraph()
         k.KO(-1,t,"𐑢");
       }
     }
-    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_Y /* 0x59 */)) {
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_X /* 0x58 */)) {
       if(1){
+        r=m=1;   // Line 127
+        k.KDC(0,t);
+        k.KO(-1,t,"𐑒𐑕");
+      }
+    }
+    else if(k.KKM(e, modCodes.VIRTUAL_KEY /* 0x4000 */, keyCodes.K_Y /* 0x59 */)) {
+      if(k.KFCM(1,t,['𐑧'])){
+        r=m=1;   // Line 86
+        k.KDC(1,t);
+        k.KO(-1,t,"𐑱");
+      }
+      else if(k.KFCM(1,t,['𐑩'])){
+        r=m=1;   // Line 88
+        k.KDC(1,t);
+        k.KO(-1,t,"𐑲");
+      }
+      else if(1){
         r=m=1;   // Line 38
         k.KDC(0,t);
         k.KO(-1,t,"𐑘");

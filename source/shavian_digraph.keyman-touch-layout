@@ -57,8 +57,7 @@
             "key": [
               {
                 "id": "K_Q",
-                "pad": "75",
-                "text": "\u00B7"
+                "pad": "75"
               },
               {
                 "id": "K_W",
@@ -82,7 +81,7 @@
               },
               {
                 "id": "K_U",
-                "text": "\uD801\uDC69"
+                "text": "\uD801\uDC73"
               },
               {
                 "id": "K_I",
@@ -116,7 +115,7 @@
               },
               {
                 "id": "K_A",
-                "text": "\uD801\uDC68"
+                "text": "\uD801\uDC69"
               },
               {
                 "id": "K_S",
@@ -178,10 +177,12 @@
                 "text": "\uD801\uDC5F"
               },
               {
-                "id": "K_X"
+                "id": "K_X",
+                "text": "\uD801\uDC52\uD801\uDC55"
               },
               {
-                "id": "K_C"
+                "id": "K_C",
+                "text": "\u00B7"
               },
               {
                 "id": "K_V",
