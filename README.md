@@ -1,7 +1,8 @@
 Shavian Digraph keyboard
 ==============
 
-Version 1.0
+Version 1.0  
+KMP build file found [here](https://github.com/Nulpoints/shavian_digraph/blob/main/build/shavian_digraph.kmp)
 
 Description
 -----------
