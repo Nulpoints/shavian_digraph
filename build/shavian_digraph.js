@@ -15,7 +15,7 @@ function Keyboard_shavian_digraph()
   this.KMINVER="10.0";
   this.KV={F:' 1em "Fairfax Hax HD"',K102:0};
   this.KV.KLS={
-    "default": ["","","","","","","","","","","","","","","","","","𐑢","𐑧","𐑮","𐑑","𐑘","𐑳","𐑦","𐑪","𐑐","[","]","\\","","","","𐑩","𐑕","𐑛","𐑓","𐑜","𐑣","𐑡","𐑒","𐑤",";","'","","","","","","","𐑟","𐑒𐑕","·","𐑝","𐑚","𐑯","𐑥",",",".","/","","","","","",""]
+    "default": ["","","","","","","","","","","","","","","","","q","w","e","r","t","y","u","i","o","p","[","]","\\","","","","a","s","d","f","g","h","j","k","l",";","'","","","","","","","z","x","c","v","b","n","m",",",".","/","","","","","",""]
   };
   this.KV.BK=(function(x){
     var
@@ -56,7 +56,21 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_E",
-                "text": "\uD801\uDC67"
+                "text": "\uD801\uDC67",
+                "sk": [
+                  {
+                    "id": "U_00E8"
+                  },
+                  {
+                    "id": "U_00E9"
+                  },
+                  {
+                    "id": "U_00EA"
+                  },
+                  {
+                    "id": "U_00EB"
+                  }
+                ]
               },
               {
                 "id": "K_R",
@@ -64,23 +78,81 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_T",
-                "text": "\uD801\uDC51"
+                "text": "\uD801\uDC51",
+                "sk": [
+                  {
+                    "id": "U_00FE"
+                  }
+                ]
               },
               {
                 "id": "K_Y",
-                "text": "\uD801\uDC58"
+                "text": "\uD801\uDC58",
+                "sk": [
+                  {
+                    "id": "U_00FD"
+                  }
+                ]
               },
               {
                 "id": "K_U",
-                "text": "\uD801\uDC73"
+                "text": "\uD801\uDC73",
+                "sk": [
+                  {
+                    "id": "U_00F9"
+                  },
+                  {
+                    "id": "U_00FA"
+                  },
+                  {
+                    "id": "U_00FB"
+                  },
+                  {
+                    "id": "U_00FC"
+                  }
+                ]
               },
               {
                 "id": "K_I",
-                "text": "\uD801\uDC66"
+                "text": "\uD801\uDC66",
+                "sk": [
+                  {
+                    "id": "U_00EC"
+                  },
+                  {
+                    "id": "U_00ED"
+                  },
+                  {
+                    "id": "U_00EE"
+                  },
+                  {
+                    "id": "U_00EF"
+                  }
+                ]
               },
               {
                 "id": "K_O",
-                "text": "\uD801\uDC6A"
+                "text": "\uD801\uDC6A",
+                "sk": [
+                  {
+                    "id": "U_00F2"
+                  },
+                  {
+                    "id": "U_00F3"
+                  },
+                  {
+                    "id": "U_00F4"
+                  },
+                  {
+                    "id": "U_00F5"
+                  },
+                  {
+                    "id": "U_00F6"
+                  },
+                  {
+                    "id": "U_00F8"
+                  }
+                ]
               },
               {
                 "id": "K_P",
@@ -94,15 +166,48 @@ function Keyboard_shavian_digraph()
               {
                 "id": "K_A",
                 "pad": "50",
-                "text": "\uD801\uDC69"
+                "text": "\uD801\uDC69",
+                "sk": [
+                  {
+                    "id": "U_00E0"
+                  },
+                  {
+                    "id": "U_00E1"
+                  },
+                  {
+                    "id": "U_00E2"
+                  },
+                  {
+                    "id": "U_00E3"
+                  },
+                  {
+                    "id": "U_00E4"
+                  },
+                  {
+                    "id": "U_00E5"
+                  },
+                  {
+                    "id": "U_00E6"
+                  }
+                ]
               },
               {
                 "id": "K_S",
-                "text": "\uD801\uDC55"
+                "text": "\uD801\uDC55",
+                "sk": [
+                  {
+                    "id": "U_00DF"
+                  }
+                ]
               },
               {
                 "id": "K_D",
-                "text": "\uD801\uDC5B"
+                "text": "\uD801\uDC5B",
+                "sk": [
+                  {
+                    "id": "U_00F0"
+                  }
+                ]
               },
               {
                 "id": "K_F",
@@ -139,6 +244,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "nextlayer": "shift",
+                "width": "110",
                 "id": "K_SHIFT",
                 "sp": "1",
                 "text": "*Shift*"
@@ -153,7 +259,12 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_C",
-                "text": "\u00B7"
+                "text": "\u00B7",
+                "sk": [
+                  {
+                    "id": "U_00E7"
+                  }
+                ]
               },
               {
                 "id": "K_V",
@@ -165,7 +276,12 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_N",
-                "text": "\uD801\uDC6F"
+                "text": "\uD801\uDC6F",
+                "sk": [
+                  {
+                    "id": "U_00F1"
+                  }
+                ]
               },
               {
                 "id": "K_M",
@@ -173,47 +289,44 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_PERIOD",
+                "text": ".",
                 "sk": [
                   {
-                    "id": "K_COMMA",
+                    "id": "U_002C",
                     "text": ","
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_1",
+                    "id": "U_0021",
                     "text": "!"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_SLASH",
+                    "id": "U_003F",
                     "text": "?"
                   },
                   {
-                    "id": "K_QUOTE",
+                    "id": "U_0027",
                     "text": "'"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_QUOTE",
+                    "id": "U_0022",
                     "text": "\""
                   },
                   {
-                    "id": "K_BKSLASH",
+                    "id": "U_005C",
                     "text": "\\"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_COLON",
+                    "id": "U_003A",
                     "text": ":"
                   },
                   {
-                    "id": "K_COLON",
+                    "id": "U_003B",
                     "text": ";"
                   }
                 ]
               },
               {
-                "width": "100",
+                "width": "90",
                 "id": "K_BKSP",
                 "sp": "1",
                 "text": "*BkSp*"
@@ -225,7 +338,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "nextlayer": "numeric",
-                "width": "150",
+                "width": "140",
                 "id": "K_NUMLOCK",
                 "sp": "1",
                 "text": "*123*"
@@ -237,11 +350,11 @@ function Keyboard_shavian_digraph()
                 "text": "*Menu*"
               },
               {
-                "width": "610",
+                "width": "630",
                 "id": "K_SPACE"
               },
               {
-                "width": "150",
+                "width": "140",
                 "id": "K_ENTER",
                 "sp": "1",
                 "text": "*Enter*"
@@ -266,7 +379,25 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_E",
-                "text": "E"
+                "text": "E",
+                "sk": [
+                  {
+                    "id": "U_00C8",
+                    "text": "\u00C8"
+                  },
+                  {
+                    "id": "U_00C9",
+                    "text": "\u00C9"
+                  },
+                  {
+                    "id": "U_00CA",
+                    "text": "\u00CA"
+                  },
+                  {
+                    "id": "U_00CB",
+                    "text": "\u00CB"
+                  }
+                ]
               },
               {
                 "id": "K_R",
@@ -274,23 +405,97 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_T",
-                "text": "T"
+                "text": "T",
+                "sk": [
+                  {
+                    "id": "U_00DE",
+                    "text": "\u00DE"
+                  }
+                ]
               },
               {
                 "id": "K_Y",
-                "text": "Y"
+                "text": "Y",
+                "sk": [
+                  {
+                    "id": "U_00DD",
+                    "text": "\u00DD"
+                  }
+                ]
               },
               {
                 "id": "K_U",
-                "text": "U"
+                "text": "U",
+                "sk": [
+                  {
+                    "id": "U_00D9",
+                    "text": "\u00D9"
+                  },
+                  {
+                    "id": "U_00DA",
+                    "text": "\u00DA"
+                  },
+                  {
+                    "id": "U_00DB",
+                    "text": "\u00DB"
+                  },
+                  {
+                    "id": "U_00DC",
+                    "text": "\u00DC"
+                  }
+                ]
               },
               {
                 "id": "K_I",
-                "text": "I"
+                "text": "I",
+                "sk": [
+                  {
+                    "id": "U_00CC",
+                    "text": "\u00CC"
+                  },
+                  {
+                    "id": "U_00CD",
+                    "text": "\u00CD"
+                  },
+                  {
+                    "id": "U_00CE",
+                    "text": "\u00CE"
+                  },
+                  {
+                    "id": "U_00CF",
+                    "text": "\u00CF"
+                  }
+                ]
               },
               {
                 "id": "K_O",
-                "text": "O"
+                "text": "O",
+                "sk": [
+                  {
+                    "id": "U_00D2",
+                    "text": "\u00D2"
+                  },
+                  {
+                    "id": "U_00D3",
+                    "text": "\u00D3"
+                  },
+                  {
+                    "id": "U_00D4",
+                    "text": "\u00D4"
+                  },
+                  {
+                    "id": "U_00D5",
+                    "text": "\u00D5"
+                  },
+                  {
+                    "id": "U_00D6",
+                    "text": "\u00D6"
+                  },
+                  {
+                    "id": "U_00D8",
+                    "text": "\u00D8"
+                  }
+                ]
               },
               {
                 "id": "K_P",
@@ -304,7 +509,37 @@ function Keyboard_shavian_digraph()
               {
                 "id": "K_A",
                 "pad": "50",
-                "text": "A"
+                "text": "A",
+                "sk": [
+                  {
+                    "id": "U_00C0",
+                    "text": "\u00C0"
+                  },
+                  {
+                    "id": "U_00C1",
+                    "text": "\u00C1"
+                  },
+                  {
+                    "id": "U_00C2",
+                    "text": "\u00C2"
+                  },
+                  {
+                    "id": "U_00C3",
+                    "text": "\u00C3"
+                  },
+                  {
+                    "id": "U_00C4",
+                    "text": "\u00C4"
+                  },
+                  {
+                    "id": "U_00C5",
+                    "text": "\u00C5"
+                  },
+                  {
+                    "id": "U_00C6",
+                    "text": "\u00C6"
+                  }
+                ]
               },
               {
                 "id": "K_S",
@@ -312,7 +547,13 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_D",
-                "text": "D"
+                "text": "D",
+                "sk": [
+                  {
+                    "id": "U_00D0",
+                    "text": "\u00D0"
+                  }
+                ]
               },
               {
                 "id": "K_F",
@@ -349,6 +590,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "nextlayer": "default",
+                "width": "110",
                 "id": "K_SHIFT",
                 "sp": "2",
                 "text": "*Shift*"
@@ -363,7 +605,13 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_C",
-                "text": "C"
+                "text": "C",
+                "sk": [
+                  {
+                    "id": "U_00C7",
+                    "text": "\u00C7"
+                  }
+                ]
               },
               {
                 "id": "K_V",
@@ -375,59 +623,58 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_N",
-                "text": "N"
+                "text": "N",
+                "sk": [
+                  {
+                    "id": "U_00D1",
+                    "text": "\u00D1"
+                  }
+                ]
               },
               {
                 "id": "K_M",
                 "text": "M"
               },
               {
-                "layer": "default",
                 "id": "K_PERIOD",
+                "text": ".",
                 "sk": [
                   {
-                    "layer": "default",
-                    "id": "K_COMMA",
+                    "id": "U_002C",
                     "text": ","
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_1",
+                    "id": "U_0021",
                     "text": "!"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_SLASH",
+                    "id": "U_003F",
                     "text": "?"
                   },
                   {
-                    "layer": "default",
-                    "id": "K_QUOTE",
+                    "id": "U_0027",
                     "text": "'"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_QUOTE",
+                    "id": "U_0022",
                     "text": "\""
                   },
                   {
-                    "layer": "default",
-                    "id": "K_BKSLASH",
+                    "id": "U_005C",
                     "text": "\\"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_COLON",
+                    "id": "U_003A",
                     "text": ":"
                   },
                   {
-                    "layer": "default",
-                    "id": "K_COLON",
+                    "id": "U_003B",
                     "text": ";"
                   }
                 ]
               },
               {
+                "width": "90",
                 "id": "K_BKSP",
                 "sp": "1",
                 "text": "*BkSp*"
@@ -439,7 +686,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "nextlayer": "numeric",
-                "width": "150",
+                "width": "140",
                 "id": "K_NUMLOCK",
                 "sp": "1",
                 "text": "*123*"
@@ -451,11 +698,11 @@ function Keyboard_shavian_digraph()
                 "text": "*Menu*"
               },
               {
-                "width": "610",
+                "width": "630",
                 "id": "K_SPACE"
               },
               {
-                "width": "150",
+                "width": "140",
                 "id": "K_ENTER",
                 "sp": "1",
                 "text": "*Enter*"
@@ -471,44 +718,34 @@ function Keyboard_shavian_digraph()
             "id": "1",
             "key": [
               {
-                "id": "K_1",
-                "text": "1"
+                "id": "K_1"
               },
               {
-                "id": "K_2",
-                "text": "2"
+                "id": "K_2"
               },
               {
-                "id": "K_3",
-                "text": "3"
+                "id": "K_3"
               },
               {
-                "id": "K_4",
-                "text": "4"
+                "id": "K_4"
               },
               {
-                "id": "K_5",
-                "text": "5"
+                "id": "K_5"
               },
               {
-                "id": "K_6",
-                "text": "6"
+                "id": "K_6"
               },
               {
-                "id": "K_7",
-                "text": "7"
+                "id": "K_7"
               },
               {
-                "id": "K_8",
-                "text": "8"
+                "id": "K_8"
               },
               {
-                "id": "K_9",
-                "text": "9"
+                "id": "K_9"
               },
               {
-                "id": "K_0",
-                "text": "0"
+                "id": "K_0"
               }
             ]
           },
@@ -548,8 +785,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "layer": "default",
-                "id": "K_EQUAL",
-                "text": "="
+                "id": "K_EQUAL"
               },
               {
                 "layer": "shift",
@@ -558,7 +794,8 @@ function Keyboard_shavian_digraph()
               },
               {
                 "layer": "default",
-                "id": "K_BKSLASH"
+                "id": "K_BKSLASH",
+                "text": "\\"
               },
               {
                 "width": "10",
@@ -570,21 +807,26 @@ function Keyboard_shavian_digraph()
             "id": "3",
             "key": [
               {
+                "nextlayer": "symbol",
+                "width": "110",
+                "id": "K_SYMBOLS",
+                "sp": "1",
+                "text": "\u00A7"
+              },
+              {
                 "id": "K_LBRKT",
-                "pad": "110",
+                "text": "[",
                 "sk": [
                   {
                     "id": "U_00AB",
                     "text": "\u00AB"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_COMMA",
+                    "id": "U_003C",
                     "text": "<"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_LBRKT",
+                    "id": "U_007B",
                     "text": "{"
                   }
                 ]
@@ -601,19 +843,18 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_RBRKT",
+                "text": "]",
                 "sk": [
                   {
                     "id": "U_00BB",
                     "text": "\u00BB"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_PERIOD",
+                    "id": "U_003E",
                     "text": ">"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_RBRKT",
+                    "id": "U_007D",
                     "text": "}"
                   }
                 ]
@@ -624,8 +865,8 @@ function Keyboard_shavian_digraph()
                 "text": "+"
               },
               {
-                "id": "K_HYPHEN",
-                "text": "-"
+                "layer": "default",
+                "id": "K_HYPHEN"
               },
               {
                 "layer": "shift",
@@ -633,10 +874,12 @@ function Keyboard_shavian_digraph()
                 "text": "*"
               },
               {
-                "id": "K_SLASH"
+                "layer": "default",
+                "id": "K_SLASH",
+                "text": "/"
               },
               {
-                "width": "100",
+                "width": "90",
                 "id": "K_BKSP",
                 "sp": "1",
                 "text": "*BkSp*"
@@ -648,7 +891,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "nextlayer": "default",
-                "width": "150",
+                "width": "140",
                 "id": "K_LOWER",
                 "sp": "1",
                 "text": "*abc*"
@@ -660,11 +903,185 @@ function Keyboard_shavian_digraph()
                 "text": "*Menu*"
               },
               {
-                "width": "610",
+                "width": "630",
                 "id": "K_SPACE"
               },
               {
-                "width": "150",
+                "width": "140",
+                "id": "K_ENTER",
+                "sp": "1",
+                "text": "*Enter*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "symbol",
+        "row": [
+          {
+            "id": "1",
+            "key": [
+              {
+                "id": "U_0060",
+                "text": "`"
+              },
+              {
+                "id": "U_007E",
+                "text": "~"
+              },
+              {
+                "id": "U_005E",
+                "text": "^"
+              },
+              {
+                "id": "U_00A8",
+                "text": "\u00A8"
+              },
+              {
+                "id": "U_00B4",
+                "text": "\u00B4"
+              },
+              {
+                "id": "U_00B8",
+                "text": "\u00B8"
+              },
+              {
+                "id": "U_00AF",
+                "text": "\u00AF"
+              },
+              {
+                "id": "U_00BF",
+                "text": "\u00BF"
+              },
+              {
+                "id": "U_00A1",
+                "text": "\u00A1"
+              },
+              {
+                "id": "U_00AC",
+                "text": "\u00AC"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "key": [
+              {
+                "id": "U_00AA",
+                "pad": "50",
+                "text": "\u00AA"
+              },
+              {
+                "id": "U_00BA",
+                "text": "\u00BA"
+              },
+              {
+                "id": "U_00B6",
+                "text": "\u00B6"
+              },
+              {
+                "id": "U_00A7",
+                "text": "\u00A7"
+              },
+              {
+                "id": "U_00B1",
+                "text": "\u00B1"
+              },
+              {
+                "id": "U_00D7",
+                "text": "\u00D7"
+              },
+              {
+                "id": "U_00F7",
+                "text": "\u00F7"
+              },
+              {
+                "id": "U_00A6",
+                "text": "\u00A6"
+              },
+              {
+                "id": "U_00B0",
+                "text": "\u00B0"
+              },
+              {
+                "width": "10",
+                "sp": "10"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "key": [
+              {
+                "nextlayer": "numeric",
+                "width": "110",
+                "id": "K_NUMLOCK",
+                "sp": "1",
+                "text": "*123*"
+              },
+              {
+                "id": "U_00B5",
+                "text": "\u00B5"
+              },
+              {
+                "id": "U_00A9",
+                "text": "\u00A9"
+              },
+              {
+                "id": "U_00AE",
+                "text": "\u00AE"
+              },
+              {
+                "id": "U_00A3",
+                "text": "\u00A3"
+              },
+              {
+                "id": "U_20AC",
+                "text": "\u20AC"
+              },
+              {
+                "id": "U_00A5",
+                "text": "\u00A5"
+              },
+              {
+                "id": "U_2022",
+                "text": "\u2022"
+              },
+              {
+                "id": "U_00B7",
+                "text": "\u00B7"
+              },
+              {
+                "width": "90",
+                "id": "K_BKSP",
+                "sp": "1",
+                "text": "*BkSp*"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "key": [
+              {
+                "nextlayer": "default",
+                "width": "140",
+                "id": "K_LOWER",
+                "sp": "1",
+                "text": "*abc*"
+              },
+              {
+                "width": "120",
+                "id": "K_LOPT",
+                "sp": "1",
+                "text": "*Menu*"
+              },
+              {
+                "width": "630",
+                "id": "K_SPACE"
+              },
+              {
+                "width": "140",
                 "id": "K_ENTER",
                 "sp": "1",
                 "text": "*Enter*"
@@ -686,43 +1103,116 @@ function Keyboard_shavian_digraph()
             "id": "1",
             "key": [
               {
-                "id": "K_Q"
+                "id": "K_Q",
+                "text": "q"
               },
               {
                 "id": "K_W",
-                "text": "\uD801\uDC62"
+                "text": "w"
               },
               {
                 "id": "K_E",
-                "text": "\uD801\uDC67"
+                "text": "e",
+                "sk": [
+                  {
+                    "id": "U_00E8"
+                  },
+                  {
+                    "id": "U_00E9"
+                  },
+                  {
+                    "id": "U_00EA"
+                  },
+                  {
+                    "id": "U_00EB"
+                  }
+                ]
               },
               {
                 "id": "K_R",
-                "text": "\uD801\uDC6E"
+                "text": "r"
               },
               {
                 "id": "K_T",
-                "text": "\uD801\uDC51"
+                "text": "t",
+                "sk": [
+                  {
+                    "id": "U_00FE"
+                  }
+                ]
               },
               {
                 "id": "K_Y",
-                "text": "\uD801\uDC58"
+                "text": "y",
+                "sk": [
+                  {
+                    "id": "U_00FD"
+                  }
+                ]
               },
               {
                 "id": "K_U",
-                "text": "\uD801\uDC73"
+                "text": "u",
+                "sk": [
+                  {
+                    "id": "U_00F9"
+                  },
+                  {
+                    "id": "U_00FA"
+                  },
+                  {
+                    "id": "U_00FB"
+                  },
+                  {
+                    "id": "U_00FC"
+                  }
+                ]
               },
               {
                 "id": "K_I",
-                "text": "\uD801\uDC66"
+                "text": "i",
+                "sk": [
+                  {
+                    "id": "U_00EC"
+                  },
+                  {
+                    "id": "U_00ED"
+                  },
+                  {
+                    "id": "U_00EE"
+                  },
+                  {
+                    "id": "U_00EF"
+                  }
+                ]
               },
               {
                 "id": "K_O",
-                "text": "\uD801\uDC6A"
+                "text": "o",
+                "sk": [
+                  {
+                    "id": "U_00F2"
+                  },
+                  {
+                    "id": "U_00F3"
+                  },
+                  {
+                    "id": "U_00F4"
+                  },
+                  {
+                    "id": "U_00F5"
+                  },
+                  {
+                    "id": "U_00F6"
+                  },
+                  {
+                    "id": "U_00F8"
+                  }
+                ]
               },
               {
                 "id": "K_P",
-                "text": "\uD801\uDC50"
+                "text": "p"
               }
             ]
           },
@@ -732,39 +1222,72 @@ function Keyboard_shavian_digraph()
               {
                 "id": "K_A",
                 "pad": "70",
-                "text": "\uD801\uDC69"
+                "text": "a",
+                "sk": [
+                  {
+                    "id": "U_00E0"
+                  },
+                  {
+                    "id": "U_00E1"
+                  },
+                  {
+                    "id": "U_00E2"
+                  },
+                  {
+                    "id": "U_00E3"
+                  },
+                  {
+                    "id": "U_00E4"
+                  },
+                  {
+                    "id": "U_00E5"
+                  },
+                  {
+                    "id": "U_00E6"
+                  }
+                ]
               },
               {
                 "id": "K_S",
-                "text": "\uD801\uDC55"
+                "text": "s",
+                "sk": [
+                  {
+                    "id": "U_00DF"
+                  }
+                ]
               },
               {
                 "id": "K_D",
-                "text": "\uD801\uDC5B"
+                "text": "d",
+                "sk": [
+                  {
+                    "id": "U_00F0"
+                  }
+                ]
               },
               {
                 "id": "K_F",
-                "text": "\uD801\uDC53"
+                "text": "f"
               },
               {
                 "id": "K_G",
-                "text": "\uD801\uDC5C"
+                "text": "g"
               },
               {
                 "id": "K_H",
-                "text": "\uD801\uDC63"
+                "text": "h"
               },
               {
                 "id": "K_J",
-                "text": "\uD801\uDC61"
+                "text": "j"
               },
               {
                 "id": "K_K",
-                "text": "\uD801\uDC52"
+                "text": "k"
               },
               {
                 "id": "K_L",
-                "text": "\uD801\uDC64"
+                "text": "l"
               },
               {
                 "width": "10",
@@ -785,69 +1308,76 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_Z",
-                "text": "\uD801\uDC5F"
+                "text": "z"
               },
               {
                 "id": "K_X",
-                "text": "\uD801\uDC52\uD801\uDC55"
+                "text": "x"
               },
               {
                 "id": "K_C",
-                "text": "\u00B7"
+                "text": "c",
+                "sk": [
+                  {
+                    "id": "U_00E7"
+                  }
+                ]
               },
               {
                 "id": "K_V",
-                "text": "\uD801\uDC5D"
+                "text": "v"
               },
               {
                 "id": "K_B",
-                "text": "\uD801\uDC5A"
+                "text": "b"
               },
               {
                 "id": "K_N",
-                "text": "\uD801\uDC6F"
+                "text": "n",
+                "sk": [
+                  {
+                    "id": "U_00F1"
+                  }
+                ]
               },
               {
                 "id": "K_M",
-                "text": "\uD801\uDC65"
+                "text": "m"
               },
               {
                 "id": "K_PERIOD",
+                "text": ".",
                 "sk": [
                   {
-                    "id": "K_COMMA",
+                    "id": "U_002C",
                     "text": ","
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_1",
+                    "id": "U_0021",
                     "text": "!"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_SLASH",
+                    "id": "U_003F",
                     "text": "?"
                   },
                   {
-                    "id": "K_QUOTE",
+                    "id": "U_0027",
                     "text": "'"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_QUOTE",
+                    "id": "U_0022",
                     "text": "\""
                   },
                   {
-                    "id": "K_BKSLASH",
+                    "id": "U_005C",
                     "text": "\\"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_COLON",
+                    "id": "U_003A",
                     "text": ":"
                   },
                   {
-                    "id": "K_COLON",
+                    "id": "U_003B",
                     "text": ";"
                   }
                 ]
@@ -906,7 +1436,25 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_E",
-                "text": "E"
+                "text": "E",
+                "sk": [
+                  {
+                    "id": "U_00C8",
+                    "text": "\u00C8"
+                  },
+                  {
+                    "id": "U_00C9",
+                    "text": "\u00C9"
+                  },
+                  {
+                    "id": "U_00CA",
+                    "text": "\u00CA"
+                  },
+                  {
+                    "id": "U_00CB",
+                    "text": "\u00CB"
+                  }
+                ]
               },
               {
                 "id": "K_R",
@@ -914,23 +1462,97 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_T",
-                "text": "T"
+                "text": "T",
+                "sk": [
+                  {
+                    "id": "U_00DE",
+                    "text": "\u00DE"
+                  }
+                ]
               },
               {
                 "id": "K_Y",
-                "text": "Y"
+                "text": "Y",
+                "sk": [
+                  {
+                    "id": "U_00DD",
+                    "text": "\u00DD"
+                  }
+                ]
               },
               {
                 "id": "K_U",
-                "text": "U"
+                "text": "U",
+                "sk": [
+                  {
+                    "id": "U_00D9",
+                    "text": "\u00D9"
+                  },
+                  {
+                    "id": "U_00DA",
+                    "text": "\u00DA"
+                  },
+                  {
+                    "id": "U_00DB",
+                    "text": "\u00DB"
+                  },
+                  {
+                    "id": "U_00DC",
+                    "text": "\u00DC"
+                  }
+                ]
               },
               {
                 "id": "K_I",
-                "text": "I"
+                "text": "I",
+                "sk": [
+                  {
+                    "id": "U_00CC",
+                    "text": "\u00CC"
+                  },
+                  {
+                    "id": "U_00CD",
+                    "text": "\u00CD"
+                  },
+                  {
+                    "id": "U_00CE",
+                    "text": "\u00CE"
+                  },
+                  {
+                    "id": "U_00CF",
+                    "text": "\u00CF"
+                  }
+                ]
               },
               {
                 "id": "K_O",
-                "text": "O"
+                "text": "O",
+                "sk": [
+                  {
+                    "id": "U_00D2",
+                    "text": "\u00D2"
+                  },
+                  {
+                    "id": "U_00D3",
+                    "text": "\u00D3"
+                  },
+                  {
+                    "id": "U_00D4",
+                    "text": "\u00D4"
+                  },
+                  {
+                    "id": "U_00D5",
+                    "text": "\u00D5"
+                  },
+                  {
+                    "id": "U_00D6",
+                    "text": "\u00D6"
+                  },
+                  {
+                    "id": "U_00D8",
+                    "text": "\u00D8"
+                  }
+                ]
               },
               {
                 "id": "K_P",
@@ -944,7 +1566,37 @@ function Keyboard_shavian_digraph()
               {
                 "id": "K_A",
                 "pad": "70",
-                "text": "A"
+                "text": "A",
+                "sk": [
+                  {
+                    "id": "U_00C0",
+                    "text": "\u00C0"
+                  },
+                  {
+                    "id": "U_00C1",
+                    "text": "\u00C1"
+                  },
+                  {
+                    "id": "U_00C2",
+                    "text": "\u00C2"
+                  },
+                  {
+                    "id": "U_00C3",
+                    "text": "\u00C3"
+                  },
+                  {
+                    "id": "U_00C4",
+                    "text": "\u00C4"
+                  },
+                  {
+                    "id": "U_00C5",
+                    "text": "\u00C5"
+                  },
+                  {
+                    "id": "U_00C6",
+                    "text": "\u00C6"
+                  }
+                ]
               },
               {
                 "id": "K_S",
@@ -952,7 +1604,13 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_D",
-                "text": "D"
+                "text": "D",
+                "sk": [
+                  {
+                    "id": "U_00D0",
+                    "text": "\u00D0"
+                  }
+                ]
               },
               {
                 "id": "K_F",
@@ -980,7 +1638,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "width": "10",
-                "id": "T_new_122",
+                "id": "T_new_188",
                 "sp": "10"
               }
             ]
@@ -1005,7 +1663,13 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_C",
-                "text": "C"
+                "text": "C",
+                "sk": [
+                  {
+                    "id": "U_00C7",
+                    "text": "\u00C7"
+                  }
+                ]
               },
               {
                 "id": "K_V",
@@ -1017,54 +1681,52 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_N",
-                "text": "N"
+                "text": "N",
+                "sk": [
+                  {
+                    "id": "U_00D1",
+                    "text": "\u00D1"
+                  }
+                ]
               },
               {
                 "id": "K_M",
                 "text": "M"
               },
               {
-                "layer": "default",
                 "id": "K_PERIOD",
+                "text": ".",
                 "sk": [
                   {
-                    "layer": "default",
-                    "id": "K_COMMA",
+                    "id": "U_002C",
                     "text": ","
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_1",
+                    "id": "U_0021",
                     "text": "!"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_SLASH",
+                    "id": "U_003F",
                     "text": "?"
                   },
                   {
-                    "layer": "default",
-                    "id": "K_QUOTE",
+                    "id": "U_0027",
                     "text": "'"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_QUOTE",
+                    "id": "U_0022",
                     "text": "\""
                   },
                   {
-                    "layer": "default",
-                    "id": "K_BKSLASH",
+                    "id": "U_005C",
                     "text": "\\"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_COLON",
+                    "id": "U_003A",
                     "text": ":"
                   },
                   {
-                    "layer": "default",
-                    "id": "K_COLON",
+                    "id": "U_003B",
                     "text": ";"
                   }
                 ]
@@ -1201,11 +1863,12 @@ function Keyboard_shavian_digraph()
               },
               {
                 "layer": "default",
-                "id": "K_BKSLASH"
+                "id": "K_BKSLASH",
+                "text": "\\"
               },
               {
                 "width": "10",
-                "id": "T_new_156",
+                "id": "T_new_222",
                 "sp": "10"
               }
             ]
@@ -1214,26 +1877,26 @@ function Keyboard_shavian_digraph()
             "id": "3",
             "key": [
               {
+                "nextlayer": "symbol",
                 "width": "110",
-                "id": "K_SHIFT",
+                "id": "K_SYMBOLS",
                 "sp": "1",
-                "text": "*Shift*"
+                "text": "\u00A7"
               },
               {
                 "id": "K_LBRKT",
+                "text": "[",
                 "sk": [
                   {
                     "id": "U_00AB",
                     "text": "\u00AB"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_COMMA",
+                    "id": "U_003C",
                     "text": "<"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_LBRKT",
+                    "id": "U_007B",
                     "text": "{"
                   }
                 ]
@@ -1250,19 +1913,18 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_RBRKT",
+                "text": "]",
                 "sk": [
                   {
                     "id": "U_00BB",
                     "text": "\u00BB"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_PERIOD",
+                    "id": "U_003E",
                     "text": ">"
                   },
                   {
-                    "layer": "shift",
-                    "id": "K_RBRKT",
+                    "id": "U_007D",
                     "text": "}"
                   }
                 ]
@@ -1284,7 +1946,183 @@ function Keyboard_shavian_digraph()
               },
               {
                 "layer": "default",
-                "id": "K_SLASH"
+                "id": "K_SLASH",
+                "text": "/"
+              },
+              {
+                "width": "90",
+                "id": "K_BKSP",
+                "sp": "1",
+                "text": "*BkSp*"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "key": [
+              {
+                "nextlayer": "default",
+                "width": "140",
+                "id": "K_LOWER",
+                "sp": "1",
+                "text": "*abc*"
+              },
+              {
+                "width": "120",
+                "id": "K_LOPT",
+                "sp": "1",
+                "text": "*Menu*"
+              },
+              {
+                "width": "630",
+                "id": "K_SPACE"
+              },
+              {
+                "width": "140",
+                "id": "K_ENTER",
+                "sp": "1",
+                "text": "*Enter*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "symbol",
+        "row": [
+          {
+            "id": "1",
+            "key": [
+              {
+                "id": "U_0060",
+                "text": "`"
+              },
+              {
+                "id": "U_007E",
+                "text": "~"
+              },
+              {
+                "id": "U_005E",
+                "text": "^"
+              },
+              {
+                "id": "U_00A8",
+                "text": "\u00A8"
+              },
+              {
+                "id": "U_00B4",
+                "text": "\u00B4"
+              },
+              {
+                "id": "U_00B8",
+                "text": "\u00B8"
+              },
+              {
+                "id": "U_00AF",
+                "text": "\u00AF"
+              },
+              {
+                "id": "U_00BF",
+                "text": "\u00BF"
+              },
+              {
+                "id": "U_00A1",
+                "text": "\u00A1"
+              },
+              {
+                "id": "U_00AC",
+                "text": "\u00AC"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "key": [
+              {
+                "id": "U_00AA",
+                "pad": "70",
+                "text": "\u00AA"
+              },
+              {
+                "id": "U_00BA",
+                "text": "\u00BA"
+              },
+              {
+                "id": "U_00B6",
+                "text": "\u00B6"
+              },
+              {
+                "id": "U_00A7",
+                "text": "\u00A7"
+              },
+              {
+                "id": "U_00B1",
+                "text": "\u00B1"
+              },
+              {
+                "id": "U_00D7",
+                "text": "\u00D7"
+              },
+              {
+                "id": "U_00F7",
+                "text": "\u00F7"
+              },
+              {
+                "id": "U_00A6",
+                "text": "\u00A6"
+              },
+              {
+                "id": "U_00B0",
+                "text": "\u00B0"
+              },
+              {
+                "width": "10",
+                "id": "T_new_256",
+                "sp": "10"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "key": [
+              {
+                "nextlayer": "numeric",
+                "width": "110",
+                "id": "K_NUMLOCK",
+                "sp": "1",
+                "text": "*123*"
+              },
+              {
+                "id": "U_00B5",
+                "text": "\u00B5"
+              },
+              {
+                "id": "U_00A9",
+                "text": "\u00A9"
+              },
+              {
+                "id": "U_00AE",
+                "text": "\u00AE"
+              },
+              {
+                "id": "U_00A3",
+                "text": "\u00A3"
+              },
+              {
+                "id": "U_20AC",
+                "text": "\u20AC"
+              },
+              {
+                "id": "U_00A5",
+                "text": "\u00A5"
+              },
+              {
+                "id": "U_2022",
+                "text": "\u2022"
+              },
+              {
+                "id": "U_00B7",
+                "text": "\u00B7"
               },
               {
                 "width": "90",
