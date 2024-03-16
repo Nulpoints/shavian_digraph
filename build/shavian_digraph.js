@@ -48,15 +48,16 @@ function Keyboard_shavian_digraph()
             "id": "1",
             "key": [
               {
-                "id": "K_Q"
+                "id": "K_Q",
+                "text": "q"
               },
               {
                 "id": "K_W",
-                "text": "\uD801\uDC62"
+                "text": "w"
               },
               {
                 "id": "K_E",
-                "text": "\uD801\uDC67",
+                "text": "e",
                 "sk": [
                   {
                     "id": "U_00E8"
@@ -74,11 +75,11 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_R",
-                "text": "\uD801\uDC6E"
+                "text": "r"
               },
               {
                 "id": "K_T",
-                "text": "\uD801\uDC51",
+                "text": "t",
                 "sk": [
                   {
                     "id": "U_00FE"
@@ -87,7 +88,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_Y",
-                "text": "\uD801\uDC58",
+                "text": "y",
                 "sk": [
                   {
                     "id": "U_00FD"
@@ -96,7 +97,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_U",
-                "text": "\uD801\uDC73",
+                "text": "u",
                 "sk": [
                   {
                     "id": "U_00F9"
@@ -114,7 +115,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_I",
-                "text": "\uD801\uDC66",
+                "text": "i",
                 "sk": [
                   {
                     "id": "U_00EC"
@@ -132,7 +133,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_O",
-                "text": "\uD801\uDC6A",
+                "text": "o",
                 "sk": [
                   {
                     "id": "U_00F2"
@@ -156,7 +157,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_P",
-                "text": "\uD801\uDC50"
+                "text": "p"
               }
             ]
           },
@@ -165,8 +166,8 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "id": "K_A",
-                "pad": "50",
-                "text": "\uD801\uDC69",
+                "pad": "70",
+                "text": "a",
                 "sk": [
                   {
                     "id": "U_00E0"
@@ -193,7 +194,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_S",
-                "text": "\uD801\uDC55",
+                "text": "s",
                 "sk": [
                   {
                     "id": "U_00DF"
@@ -202,7 +203,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_D",
-                "text": "\uD801\uDC5B",
+                "text": "d",
                 "sk": [
                   {
                     "id": "U_00F0"
@@ -211,30 +212,31 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_F",
-                "text": "\uD801\uDC53"
+                "text": "f"
               },
               {
                 "id": "K_G",
-                "text": "\uD801\uDC5C"
+                "text": "g"
               },
               {
                 "id": "K_H",
-                "text": "\uD801\uDC63"
+                "text": "h"
               },
               {
                 "id": "K_J",
-                "text": "\uD801\uDC61"
+                "text": "j"
               },
               {
                 "id": "K_K",
-                "text": "\uD801\uDC52"
+                "text": "k"
               },
               {
                 "id": "K_L",
-                "text": "\uD801\uDC64"
+                "text": "l"
               },
               {
                 "width": "10",
+                "id": "T_new_88",
                 "sp": "10"
               }
             ]
@@ -251,15 +253,15 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_Z",
-                "text": "\uD801\uDC5F"
+                "text": "z"
               },
               {
                 "id": "K_X",
-                "text": "\uD801\uDC52\uD801\uDC55"
+                "text": "x"
               },
               {
                 "id": "K_C",
-                "text": "\u00B7",
+                "text": "c",
                 "sk": [
                   {
                     "id": "U_00E7"
@@ -268,15 +270,15 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_V",
-                "text": "\uD801\uDC5D"
+                "text": "v"
               },
               {
                 "id": "K_B",
-                "text": "\uD801\uDC5A"
+                "text": "b"
               },
               {
                 "id": "K_N",
-                "text": "\uD801\uDC6F",
+                "text": "n",
                 "sk": [
                   {
                     "id": "U_00F1"
@@ -285,7 +287,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "id": "K_M",
-                "text": "\uD801\uDC65"
+                "text": "m"
               },
               {
                 "id": "K_PERIOD",
@@ -508,7 +510,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "id": "K_A",
-                "pad": "50",
+                "pad": "70",
                 "text": "A",
                 "sk": [
                   {
@@ -581,6 +583,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "width": "10",
+                "id": "T_new_188",
                 "sp": "10"
               }
             ]
@@ -718,34 +721,44 @@ function Keyboard_shavian_digraph()
             "id": "1",
             "key": [
               {
-                "id": "K_1"
+                "id": "K_1",
+                "text": "1"
               },
               {
-                "id": "K_2"
+                "id": "K_2",
+                "text": "2"
               },
               {
-                "id": "K_3"
+                "id": "K_3",
+                "text": "3"
               },
               {
-                "id": "K_4"
+                "id": "K_4",
+                "text": "4"
               },
               {
-                "id": "K_5"
+                "id": "K_5",
+                "text": "5"
               },
               {
-                "id": "K_6"
+                "id": "K_6",
+                "text": "6"
               },
               {
-                "id": "K_7"
+                "id": "K_7",
+                "text": "7"
               },
               {
-                "id": "K_8"
+                "id": "K_8",
+                "text": "8"
               },
               {
-                "id": "K_9"
+                "id": "K_9",
+                "text": "9"
               },
               {
-                "id": "K_0"
+                "id": "K_0",
+                "text": "0"
               }
             ]
           },
@@ -755,7 +768,7 @@ function Keyboard_shavian_digraph()
               {
                 "layer": "shift",
                 "id": "K_4",
-                "pad": "50",
+                "pad": "70",
                 "text": "$"
               },
               {
@@ -785,7 +798,8 @@ function Keyboard_shavian_digraph()
               },
               {
                 "layer": "default",
-                "id": "K_EQUAL"
+                "id": "K_EQUAL",
+                "text": "="
               },
               {
                 "layer": "shift",
@@ -799,6 +813,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "width": "10",
+                "id": "T_new_222",
                 "sp": "10"
               }
             ]
@@ -866,7 +881,8 @@ function Keyboard_shavian_digraph()
               },
               {
                 "layer": "default",
-                "id": "K_HYPHEN"
+                "id": "K_HYPHEN",
+                "text": "-"
               },
               {
                 "layer": "shift",
@@ -969,7 +985,7 @@ function Keyboard_shavian_digraph()
             "key": [
               {
                 "id": "U_00AA",
-                "pad": "50",
+                "pad": "70",
                 "text": "\u00AA"
               },
               {
@@ -1006,6 +1022,7 @@ function Keyboard_shavian_digraph()
               },
               {
                 "width": "10",
+                "id": "T_new_256",
                 "sp": "10"
               }
             ]

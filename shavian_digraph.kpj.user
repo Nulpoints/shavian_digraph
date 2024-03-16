@@ -75,15 +75,15 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>shavian_digraph.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>shavian_digraph.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>shavian_digraph.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\nuno2\OneDrive\Documents\Keyman Developer\Projects\shavian_digraph\source\shavian_digraph.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
