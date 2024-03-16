@@ -17,8 +17,8 @@
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>0</DebugDefaultFont>
         <DebugFont>Fairfax Hax HD|20|B  |0</DebugFont>
-        <CodeFont>Consolas|9|   |0</CodeFont>
-        <CharFont>Consolas|11|   |0</CharFont>
+        <CodeFont>Fairfax Hax HD|9|   |0</CodeFont>
+        <CharFont>Fairfax Hax HD|11|   |0</CharFont>
       </IDEState>
       <Debug>True</Debug>
     </FileState>

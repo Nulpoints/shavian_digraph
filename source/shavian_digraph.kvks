@@ -7,7 +7,7 @@
       <displayunderlying/>
     </flags>
   </header>
-  <encoding name="unicode" fontname="Consolas" fontsize="12">
+  <encoding name="unicode" fontname="Fairfax Hax HD" fontsize="12">
     <layer shift="">
       <key vkey="K_A">𐑩</key>
       <key vkey="K_B">𐑚</key>
@@ -34,6 +34,14 @@
       <key vkey="K_X">𐑒𐑕</key>
       <key vkey="K_Y">𐑘</key>
       <key vkey="K_Z">𐑟</key>
+      <key vkey="K_COMMA">,</key>
+      <key vkey="K_PERIOD">.</key>
+      <key vkey="K_SLASH">/</key>
+      <key vkey="K_COLON">;</key>
+      <key vkey="K_QUOTE">'</key>
+      <key vkey="K_LBRKT">[</key>
+      <key vkey="K_RBRKT">]</key>
+      <key vkey="K_BKSLASH">\</key>
     </layer>
   </encoding>
 </visualkeyboard>
